@@ -1,0 +1,14 @@
+VIctory para RX 5700 - prototipo experimental v2
+
+O projeto e experimental; nao e uma fusao de XCL e VIctory 7900 XTX. Baseado no VIctory (PR 961, commit 31568ced3e44bb31aac5755e18c7d6f165204e30), com o ajuste de texturas da PR 1296 (commit a6f3ccb6998f44723b0f0e30b2c961710bb19607), e uma adaptacao da composicao de telas da PR 1081 (commit 08ab04187c4aab87c62e441dc4ad71f17d34e9e3, fxceless/victory-fork). A abertura de arquivos com leitura compartilhada tambem foi ajustada.
+
+TESTE: no computador do usuario, a compilacao abriu a copia do jogo e mostrou a tela de selecao de conta. O restante do jogo, o mundo 3D e o desempenho jogavel ainda NAO foram confirmados. Pode travar, apresentar imagens incorretas ou falta de memoria.
+
+Feche a instancia anterior do teste. Extraia TODOS os arquivos deste pacote para uma pasta e execute INICIAR.cmd. O caminho configurado e D:\GTA6.Xbox.v1.0.2.1-CYBERLEEK. Quando nao houver um controle Xbox conectado, Enter corresponde a A e Y corresponde a Y. O programa salva log.txt, cache e dados proprios ao lado dele.
+
+O prototipo habilita mesh shaders por computacao e baixa uma camada de resolucao das texturas elegiveis. O perfil Series S e usado. O sistema tem 16 GB de RAM e 8 GB de VRAM; em uma tentativa o Windows atingiu o limite de memoria comprometida. Feche outros aplicativos se faltar memoria e verifique o espaco livre na unidade do arquivo de paginacao.
+
+Codigo-fonte: ver o arquivo separado oferecido junto com este pacote. Licenca GPL-3.0-or-later.
+https://github.com/Marvisak/VIctory/pull/961
+https://github.com/Marvisak/VIctory/pull/1296
+https://github.com/fxceless/victory-fork/pull/1081

@@ -14,11 +14,6 @@ game_dir = 'D:\victory-data\game'
 # Default: %LOCALAPPDATA%\victory\data.   env: VICTORY_DATA_DIR
 # data_dir = 'D:\victory-data\data'
 
-# AMD FidelityFX for PC: the folder with amd_fidelityfx_upscaler_dx12.dll
-# (FidelityFX SDK, Kits/FidelityFX/signedbin). It upscales in place of a
-# title's console build. Unset: the title's own.   env: VICTORY_FIDELITYFX_DIR
-# fidelityfx_dir = 'D:\victory-data\fidelityfx'
-
 # Other Xbox Series titles used to test platform-level code.
 # env: VICTORY_TEST_TITLES (separated by ';')
 test_titles = []
